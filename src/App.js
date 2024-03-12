@@ -87,7 +87,7 @@ function App() {
           accept="image/*" // 오직 이미지 파일만 선택 가능
         />
         {image && <ImagePreview src={image} alt="Preview" />}
-        {image && <UploadButton onClick={handleSubmit}>전송</UploadButton>}
+        {image && <UploadButton>전송</UploadButton>}
       </header>
     </div>
   );
